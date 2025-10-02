@@ -18,9 +18,9 @@ public class PerfilActivity extends AppCompatActivity {
 
         // Acción del botón "Acerca de"
         btnAcercaDe.setOnClickListener(v -> {
-            String url = "https://github.com/chubyx";
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+            Intent intent = new Intent(PerfilActivity.this, AcercaDeActivity.class);
             startActivity(intent);
         });
+
     }
 }

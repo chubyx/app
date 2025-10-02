@@ -18,6 +18,10 @@
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
+            android:name=".AcercaDeActivity"
+            android:exported="false"/>
+
+        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
